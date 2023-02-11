@@ -8,7 +8,7 @@ Model](https://arxiv.org/abs/2111.03810v2)
 $\displaystyle S_{bulk}=\frac{1}{16\pi \tilde{G}N}\int \mathrm{d}^{4}x\sqrt{-g}\big[R+\frac{6}{L^{2}}-|\nabla \Psi-iqA \Psi |^{2}-m^{2}|\Psi |^{2}-\frac{h(\Psi )}{4} F_{\mu \nu }F^{\mu \nu }\big]$
 $h(\Psi )\equiv e^{\alpha \Psi ^{2}}$
 
-引入一个缩放$A_{\mu }=\tilde{A}_{\mu }/q,\Psi =\tilde{\Psi}/q,\alpha =\tilde{\alpha}/q^{2} $, 取极限$q\to \infty$得到探针极限, 此时物质场对背景无影响，但电磁耦合作用依旧存在，简单起见考虑了在这个极限下，标量场和电磁场的行为
+引入一个缩放 $A_{\mu }=\tilde{A}_{\mu }/q,\Psi =\tilde{\Psi}/q,\alpha =\tilde{\alpha}/q^{2}$ , 取极限 $q\to \infty$ 得到探针极限, 此时物质场对背景无影响，但电磁耦合作用依旧存在，简单起见考虑了在这个极限下，标量场和电磁场的行为
 
 取施瓦西解
 
@@ -37,7 +37,7 @@ $$
 \phi ''+(2\alpha \Psi \Psi '+\frac{2}{r})\phi '-\frac{2q^{2}\Psi ^{2}e^{-\alpha \Psi ^{2}}}{f}\phi =0\qquad (6)
 $$
 
-边界处渐进形式,取$\displaystyle \Delta _{\plusmn}=\frac{3\plusmn\sqrt{9+4m^{2}L^{2}}}{2}$,$\displaystyle m^{2}=-\frac{2}{L^{2}}$
+边界处渐进形式,取 $\displaystyle \Delta _{\plusmn}=\frac{3\plusmn\sqrt{9+4m^{2}L^{2}}}{2}$,$\displaystyle m^{2}=-\frac{2}{L^{2}}$
 
 $$
 \Psi =\frac{\Psi ^{(1)}}{r^{1}}+\frac{\Psi ^{(2)}}{r^{2}}+ \cdots \\
@@ -58,7 +58,7 @@ $$
 A_{x}''+(2\alpha \psi \psi '+\frac{f'}{f})A_x '+(\frac{\omega^{2}}{f^{2}}-\frac{2q^{2}\Psi ^{2}e^{-\alpha \Psi ^{2}}}{f})A_x =0
 $$
 
-在视界处引入入射波边界条件$A_x\sim f^{-i\omega /3r_0}|_{r\to r_0}$, 在边界处$A_x$的渐进性为如下
+在视界处引入入射波边界条件 $A_x\sim f^{-i\omega /3r_0}|_{r\to r_0}$ , 在边界处 $A_x$ 的渐进性为如下
 
 $$
 A_x=A^{(0)}_{x}+\frac{A^{(1)}_{x}}{r}+ \cdots
@@ -80,7 +80,7 @@ $$
 
 对我而言有点启发的结果
 
-- 凝聚度 零温极限 $\lim_{t \to 0}\left<\mathcal{O}_{2} \right> =constant$，并把这个常数解释为两倍的superconducting gap ,BCS理论中$2\times gap=3.5 T_c$,给了个这个值关于耦合常数$\alpha $的表
+- 凝聚度 零温极限 $\lim_{t \to 0}\left<\mathcal{O}_{2} \right> =constant$ ，并把这个常数解释为两倍的superconducting gap ,BCS理论中 $2\times gap=3.5 T_c$ ,给了个这个值关于耦合常数 $\alpha $ 的表
   (wiki百科 $\Delta (T=0)=1.764k_{B}T_{c}$)
   ![凝聚](image/1.png)
   ![表](image/2.png)
