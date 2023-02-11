@@ -67,7 +67,7 @@ $$
 According to the AdS/CFT dictionary, the dual source and expectation value for the electric field are given by
 
 $$
-E_x=i \omega A_x^{(0)},\quad \left<J_{x} \right> =A_x^{(1)}
+E_x=i \omega A_x^{(0)},\quad \left< J_{x} \right> =A_x^{(1)}
 $$
 
 因此电导率，由欧姆定律给出
