@@ -52,7 +52,7 @@ $$
 
 ## 电导
 
-引入一个不知道从哪里来的一个$A_{x}$, 可以将运动方程(6)变成如下形式
+引入一个不知道从哪里来的一个 $A_{x}$ , 可以将运动方程(6)变成如下形式
 
 $$
 A_{x}''+(2\alpha \psi \psi '+\frac{f'}{f})A_x '+(\frac{\omega^{2}}{f^{2}}-\frac{2q^{2}\Psi ^{2}e^{-\alpha \Psi ^{2}}}{f})A_x =0
@@ -80,8 +80,8 @@ $$
 
 对我而言有点启发的结果
 
-- 凝聚度 零温极限 $\lim_{t \to 0}\left<\mathcal{O}_{2} \right> =constant$ ，并把这个常数解释为两倍的superconducting gap ,BCS理论中 $2\times gap=3.5 T_c$ ,给了个这个值关于耦合常数 $\alpha $ 的表
-  (wiki百科 $\Delta (T=0)=1.764k_{B}T_{c}$)
+- 凝聚度 零温极限 $ \lim_{t \to 0} \left< \mathcal{O}_{2} \right> =constant $ ，并把这个常数解释为两倍的superconducting gap ,BCS理论中 $ 2  \times gap=3.5 T_c$ ,给了个这个值关于耦合常数 $\alpha $ 的表
+  (wiki百科 $\Delta (T=0)=1.764k_{B}T_{c}$ )
   ![凝聚](image/1.png)
   ![表](image/2.png)
 
@@ -89,7 +89,7 @@ $$
 
 - 相图，凝聚的临界温度随着耦合常数的上升而上升，耦合常数能促进凝聚的发生,临界指数=1
   ![相图](image/3.png)
-- 不同$\left<\mathcal{O}_i \right> $下电导率和频率的关系
+- 不同 $ \left< \mathcal{O}_i \right> $下电导率和频率的关系
   ![电导](image/4.png)
 
 $-b$ 一开始我感觉有可能是压强之类的外部环境的常数
