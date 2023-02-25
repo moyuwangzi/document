@@ -627,6 +627,7 @@ opencc(emoji)
 参考github上作者自己的文档
 [gruvbox](https://github.com/ayamir/fcitx5-gruvbox)
 [nord](https://github.com/tonyfettes/fcitx5-nord)
+[dracula](https://github.com/drbbr/fcitx5-dracula-theme)
 
 ## 环境变量zshrc文件中
 
