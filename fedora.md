@@ -648,43 +648,7 @@ vim ~/app/aria2c/aria2.conf
 ```sh
 chmod 777 ~/app/aria2c/aria2.session
 ## 自启动
-sudo vim /etc/init.d/aria2c  
-
-```
-写入
-```sh
-#!/bin/sh
-### BEGIN INIT INFO
-# Provides: aria2
-# Required-Start: $remote_fs $network
-# Required-Stop: $remote_fs $network
-# Default-Start: 2 3 4 5
-# Default-Stop: 0 1 6
-# Short-Description: Aria2 Downloader
-### END INIT INFO
- 
-case "$1" in
-start)
- 
- echo -n "已开启Aria2c"
- sudo aria2c --conf-path=/home/ygz/app/aria2c/aria2.conf -D
-;;
-stop)
- 
- echo -n "已关闭Aria2c"
- killall aria2c
-;;
-restart)
- 
- killall aria2c
- sudo aria2c --conf-path=/home/ygz/app/aria2c/aria2.conf -D
-;;
-esac
-exit
+在设置里加入这个脚本就算了
+sudo aria2c --conf-path=/home/ygz/app/aria2c/aria2.conf -D
 ```
 
-```sh
-sudo chmod 755 /etc/init.d/aria2c 
-sudo chkconfig --add aria2c 
-sudo service aria2c start
-```
