@@ -603,11 +603,12 @@ git clone https://github.com/iDvel/rime-ice.git
 下载好复制到配置目录`~/.local/share/fcitx5/rime`即可
 重新部署一下过一会就好了
 
+或者用如下方法更方便
 安装东风破[plum](https://github.com/rime/plum)输入法管理工具
 ```sh
 git clone https://github.com/rime/plum.git
-mv ./plum ~/app/
-ln -s ./rime-install ~/.local/bin
+mv ~/Downloads/plum ~/app/
+ln -s ~/app/plum/rime-install ~/.local/bin
 ```
 安装更新所有文件
 `bash rime-install iDvel/rime-ice:others/recipes/full`
