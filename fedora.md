@@ -585,8 +585,7 @@ unzip -q clover.schema-1.1.4.zip -d $HOME/Downloads/clover
 新建文件
 ```sh
 mv $HOME/Downloads/clover/* ~/.local/share/fcitx5/rime
-sudo vi /usr/share/rime-data/default.yaml
-## 有這個文件就不會管其他的default文件了，備份完直接修改他就好了
+sudo vi ~/.local/share/fcitx5/rime/default.custom.yaml
 ```
 備份好上述文件，修改如下兩行
 ```sh
