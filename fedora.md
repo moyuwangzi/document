@@ -278,7 +278,12 @@ sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 sudo dnf upgrade
 ```
 
-启用第三方软件源，在软件商店设置处打开
+启用第三方软件源，或者在软件商店设置处打开
+```sh
+sudo dnf install fedora-workstation-repositories
+sudo dnf config-manager rpmfusion-nonfree-nvidia-driver --set-enable
+
+```
 
 ```sh
 sudo dnf upgrade --refresh
