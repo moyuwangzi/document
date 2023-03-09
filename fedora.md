@@ -360,7 +360,7 @@ sudo reboot
 
 ```sh
 sudo yum install ripgrep fd-find emacs-nox
-git clone <https://github.com/hlissner/doom-emacs> ~/.emacs.d
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.emacs.d/bin/doom install
 ```
 
