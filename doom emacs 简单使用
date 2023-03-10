@@ -8,6 +8,10 @@ SPC b k 关闭当前buffer
 
 SPC .查找文件
 
+SPC o p打开工程的目录结构
+
+SPC h r r 重新载入配置文件
+
 1. init.el 里使用 K 查阅某个 package 的文档说明，并进行试验
 
 2. 按 SPC 看提示，进行试验某个功能
