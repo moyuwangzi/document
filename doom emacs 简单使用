@@ -1,0 +1,9 @@
+SPC w v 左右分屏
+
+SPC w s 上下分屏
+
+SPC w c 关闭当前窗口
+
+SPC b k 关闭当前buffer
+
+SPC .查找文件
