@@ -413,6 +413,22 @@ sudo yum install clang-tools-extra
 (set-eglot-client! 'cc-mode '("clangd" "-j=3" "--clang-tidy"))
 ```
 
+Emacs内使用终端
+```sh
+:term
+vterm
+```
+系统安装对应插件
+```sh
+sudo dnf install libvterm
+doom sync
+```
+在Emacs中运行
+```
+M-x vterm-module-compile
+```
+
+
 ## gdm自动登录
 
 在`/etc/gdm/custom.conf`文件中添加以下内容
@@ -656,4 +672,5 @@ chmod 777 ~/app/aria2c/aria2.session
 在设置里加入这个脚本就算了
 sudo aria2c --conf-path=/home/ygz/app/aria2c/aria2.conf -D
 ```
+
 
