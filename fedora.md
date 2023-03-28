@@ -218,6 +218,13 @@ systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 systemctl status sleep.target
 ```
 
+## 修改默认目录为英文
+```
+export LANG=en_US
+xdg-user-dirs-gtk-update
+export LANG=zh_CN.UTF-8
+```
+
 ## 常用软件
 
 zsh zim
@@ -553,6 +560,24 @@ export XMODIFIERS="@im=fcitx5"
 export LANG="zh_CN.UTF-8"
 export LC_CTYPE="zh_CN.UTF-8"
 ```
+
+#### gnome下要做的事情
+托盘图标丢失
+```
+sudo dnf install gnome-shell-extension-appindicator
+# 安装完毕后重启，然后执行下述命令启用扩展
+gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com
+```
+解除 GNOME 下 iBus 对「Super + 空格」快捷键的占用 
+```
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source '[]'
+```
+还原
+```
+gsettings reset org.gnome.desktop.wm.keybindings switch-input-source
+```
+
+
 ### 安裝四葉草輸入法(不退推荐了)
 
 #### 從源碼構建
